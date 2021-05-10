@@ -7,7 +7,8 @@ function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, "digital-integration-test.skyone.co.nz") ||
         dnsDomainIs(host, "digital-integration-prelive.skyone.co.nz") ||
         dnsDomainIs(host, "delivery-dev.skyone.co.nz") ||
-        dnsDomainIs(host, "delivery-sit.skyone.co.nz"))
+        dnsDomainIs(host, "delivery-sit.skyone.co.nz") ||
+        dnsDomainIs(host, "test-goskygo.skygo.co.nz"))
         return "PROXY proxy.skytv.co.nz:8080"; // (IP:port)
 
     return "DIRECT";
