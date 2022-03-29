@@ -5,9 +5,6 @@ function FindProxyForURL(url, host) {
         return "DIRECT";
 
     if (dnsDomainIs(host, "digital-integration-test.skyone.co.nz") ||
-        dnsDomainIs(host, "catalog-api-dev.digital-integration-test.skyone.co.nz") ||
-        dnsDomainIs(host, "catalog-api-prelive.digital-integration-preprod.skyone.co.nz") ||
-        dnsDomainIs(host, "catalog-api-prod.digital-integration.skyone.co.nz") ||
         dnsDomainIs(host, "digital-integration-prelive.skyone.co.nz") ||
         dnsDomainIs(host, "delivery-dev.skyone.co.nz") ||
         dnsDomainIs(host, "delivery-sit.skyone.co.nz") ||
