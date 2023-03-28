@@ -1,8 +1,5 @@
 function FindProxyForURL(url, host) {
     host = host.toLowerCase();
-    if (dnsDomainIs(host, "internal.digital-integration-test.skyone.co.nz") ||
-        dnsDomainIs(host, "internal.digital-integration-prelive.skyone.co.nz"))
-        return "DIRECT";
 
     if (dnsDomainIs(host, "digital-integration-test.skyone.co.nz") ||
         dnsDomainIs(host, "digital-integration-prelive.skyone.co.nz") ||
