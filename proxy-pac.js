@@ -13,6 +13,8 @@ function FindProxyForURL(url, host) {
         dnsDomainIs(host, "delivery-sit.skyone.co.nz") ||
         dnsDomainIs(host, "test-goskygo.skygo.co.nz") ||
         dnsDomainIs(host, "techradar.sky.co.nz") ||
+        dnsDomainIs(host, "tvguide.dev.sky.co.nz") ||
+        dnsDomainIs(host, "tvguide.prelive.sky.co.nz") ||
         dnsDomainIs(host, "dev.sky.co.nz") ||
         dnsDomainIs(host, "172.26.121.101") ||
         dnsDomainIs(host, "prelive.sky.co.nz"))
