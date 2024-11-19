@@ -18,6 +18,7 @@ function FindProxyForURL(url, host) {
         dnsDomainIs(host, "dev.sky.co.nz") ||
         dnsDomainIs(host, "skyprelive.co.nz") ||
         dnsDomainIs(host, "172.26.121.101") ||
+        dnsDomainIs(host, "172.26.34.69") ||
         dnsDomainIs(host, "prelive.sky.co.nz"))
         return "PROXY proxy.skytv.co.nz:8080"; // (IP:port)
 
